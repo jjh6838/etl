@@ -11,9 +11,9 @@ dependencies:
   - gdown # download from google drive
   - geoalchemy2 # spatial database extensions for sqlalchemy
   - geopandas # geographic pandas dataframes
-  - gunicorn # WSGI web server
+#  - gunicorn # WSGI web server
   - httpie # friendly CLI HTTP client
-  - jq # JSON filtering
+#  - jq # JSON filtering
   - netcdf4 # netCDF file support
   # pin numpy to prevent np.object deprecation bug triggered in crick 0.3.0
   - numpy<=1.23.5 # n-d arrays
@@ -28,7 +28,7 @@ dependencies:
   - rioxarray # extend xarray for rasters
   - sqlalchemy~=1.4 # SQL object relational mapper (ORM)
   - snakemake==7.15.2 # workflow orchestration
-  - tippecanoe # vector tileset creation
+#  - tippecanoe # vector tileset creation
   - ujson # fast JSON encoder
   - xarray # named n-dimensional numpy matricies
   - zenodo_get # downloader for zenodo data
